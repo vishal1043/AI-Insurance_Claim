@@ -14,7 +14,7 @@ load_dotenv(ROOT_DIR / ".env")
 # You can also move this to .env as DATABASE_URL
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql+psycopg://postgres:vishal@localhost:5432/insurance_db",
+    
 )
 
 if not DATABASE_URL:
